@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,300;0,400;0,900;1,300&display=swap');
+
+
+* {
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family:roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color:#E5E7EB;
+  font-size: 18px;
+  margin-left:20px;
+}
+
+.header,
+.footer {
+  background:#1F2937 ;
+  color: #fff;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAV */
+
+.nav {
+display: flex;
+justify-content: center; 
+
+}
+
+.container {
+  display: flex;
+  padding: 10px 160px;
+  align-items: center;
+  width:1500px;
+  justify-content: space-between;
+  /* outline: 1px solid  yellow; */
+}
+
+.logo a{
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.nav-links {
+  display: flex;
+}
+
+/* HEADER */
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.header-text {
+  color: #E5E7EB;
+  width:300px;
+  font-size: 18px;
+  opacity: .8;
+}
+
+.header-image{
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  align-items: center;
+  height:200px;
+  width: 500px;
+   background:#6D747D ;
+}
+
+
+.header-image p {
+  font-size: .8rem;
+}
+
+.header-info {
+ max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btn {
+  border: none;
+  width:120px;
+  font-size: 1rem;
+  font-weight: 700;
+  background: #3882F6;
+  color:#fff;
+  padding:8px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  
+}
+
+.header-section-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+/* INFO SECTION */
+
+h2 {
+  margin: 40px 0;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 100px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width:160px;
+  align-items: center;
+}
+
+p.card-text {
+  margin-top: 5px;
+  font-size:14px;
+  text-align: center;
+  width: 130px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width:150px;
+  height:150px;
+  border-radius: .8rem;
+  border: 3px solid #3882F6;
+}  
+
+/* TESTIMONIAL SECTION */
+ 
+.testimonial {
+  display: flex;
+  padding:100px 300px;
+  font-size: 36px;
+  font-style: italic;
+  background:#E5E7EB;
+} 
+.cite {
+  margin-top: 100px;
+  align-self: flex-end;
+  font-size: 20px;
+ 
+ font-weight: 900;
+ 
+}

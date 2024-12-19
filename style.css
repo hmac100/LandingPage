@@ -15,6 +15,16 @@ body {
   flex-direction: column;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+h3 {
+  font-weight: 600;
+}
+
 li {
   list-style-type: none;
   font-size: 18px;
@@ -66,11 +76,6 @@ justify-content: center;
 
 /* HEADER */
 
-h1 {
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 1;
-}
 
 .header-text {
   color: #E5E7EB;
@@ -111,7 +116,6 @@ h1 {
   padding:8px 20px;
   border-radius: 8px;
   margin-top: 10px;
-  
 }
 
 .header-section-container {
@@ -180,4 +184,38 @@ p.card-text {
   font-weight: 900;
   font-style: normal;
 
+}
+
+
+/* CTA SECTION */
+
+.cta-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.cta {
+display: flex;
+justify-content: space-between;
+margin: 80px 160px;
+gap: 50px;
+padding:40px 100px;
+ background: #3882F6; 
+ color:#fff;
+ border-radius:10px; 
+}
+.cta-info {
+  display: flex;
+  flex-direction: column;
+}
+.cta-info p {
+ font-size: 14px;
+ opacity: 0.8;
+}
+
+
+.btn.outline {
+  border: 2px solid #fff;
 }
